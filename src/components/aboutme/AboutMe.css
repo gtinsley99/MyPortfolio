@@ -1,0 +1,15 @@
+.aboutMe{
+    display: flex;
+}
+
+.textContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.codeImg{
+    width: 47%;
+    border-radius: 5%;
+}
