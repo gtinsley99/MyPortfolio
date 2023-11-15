@@ -1,0 +1,24 @@
+.detail{
+    background-image: url("../../images/processor.jpg");
+    background-position: center;
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7% 10%;
+    height: 60%;
+    color: white;
+    font-size: 25px;
+}
+
+.content h2 {
+    font-size: 70px;
+}
