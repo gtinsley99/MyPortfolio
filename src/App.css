@@ -1,4 +1,8 @@
-.App {
+body{
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  background-color: #040D12;
+  color: rgb(213, 213, 213);
 }
 
