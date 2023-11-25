@@ -1,0 +1,20 @@
+.techs{
+    margin: 60px 0px;
+    background-color: #232D3F;
+}
+
+.techImgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.techs h2 {
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+.techPic{
+    width: 280px;
+    height: 300px;
+}

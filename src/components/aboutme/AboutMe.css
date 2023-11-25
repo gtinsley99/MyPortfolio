@@ -19,4 +19,6 @@
 .codeImg{
     width: 47%;
     border-radius: 5%;
+    position: relative;
+    left: -50px;
 }
