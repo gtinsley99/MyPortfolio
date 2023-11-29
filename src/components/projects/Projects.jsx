@@ -19,6 +19,27 @@ const Projects = () => {
             Persistent login and ability to have a jpg profile picture from the
             user's files.
           </p>
+          <a href= "https://github.com/gtinsley99/marvel" target="_blank">Github repository frontend</a>
+          <a href= "https://github.com/gtinsley99/marvel-backend" target="_blank">Github repository backend</a>
+          <a href= "https://marvel-codenation.netlify.app/" target="_blank">Marvel character website</a>
+        </div>
+        <div>
+          <h3>Cats4Lyfe</h3>
+          <p>Fake eCommerce website to purchase cats using React, connecting with an API. Produced in a group project.</p>
+          <a href= "https://github.com/gtinsley99/cats4life" target="_blank">Github repository</a>
+          <a href= "https://gtinsley99.github.io/cats4life/" target="_blank">Cats4Lyfe website</a>
+        </div>
+        <div>
+          <h3>Calculator</h3>
+          <p>An online calculator with current sum total and previous answer.</p>
+          <a href= "https://github.com/gtinsley99/calculator" target="_blank">Github repository</a>
+          <a href= "https://gtinsley99.github.io/calculator" target="_blank">Calculator website</a>
+        </div>
+        <div>
+          <h3>To do list</h3>
+          <p>An online to do list with ability to archive and cross out list items.</p>
+          <a href= "https://github.com/gtinsley99/ToDoList" target="_blank">Github repository</a>
+          <a href= "https://gtinsley99.github.io/ToDoList" target="_blank">To do list website</a>
         </div>
       </div>
       <div className="JS">
@@ -54,7 +75,33 @@ const Projects = () => {
           <a href= "https://awaghat99.github.io/CyberPet/" target="_blank">Cyber Pet website</a>
         </div>
       </div>
-      <div className="backend"></div>
+      <div className="backend">
+        <div>
+          <h3>Sequelize practice</h3>
+          <p>An API for storing authors, books and genres in a MySQL database using Sequelize, with relations between tables to return relevent genres of an author etc.</p>
+          <a href= "https://github.com/gtinsley99/sequelizePractice" target="_blank">Github repository</a>
+        </div>
+        <div>
+          <h3>Bcrypt example</h3>
+          <p>A website where users can login and order items, using MySQL and Sequelize to store order and user info, with brcypt to encrypt user passwords.</p>
+          <a href= "https://github.com/gtinsley99/bcypt-frontend" target="_blank">Github repository frontend</a>
+          <a href= "https://github.com/gtinsley99/bcrypt" target="_blank">Github repository backend</a>
+          <a href= "https://serene-capybara-1a0cd7.netlify.app" target="_blank">Users and orders website</a>
+        </div>
+        <div>
+          <h3>Books API</h3>
+          <p>An API stored in the cloud holding book information, made using Mongoose and Express, with React as a frontend.</p>
+          <a href= "https://github.com/gtinsley99/booksAPI" target="_blank">Github repository</a>
+          <a href= "https://storied-lily-763181.netlify.app" target="_blank">Books website</a>
+        </div>
+        <div>
+          <h3>Instagram Clone</h3>
+          <p>An Instagram clone with user login with an API made using Sequelize connected to a MySQL database in the cloud with user login and cookies storing jwt_tokens for persistent login.</p>
+          <a href= "https://github.com/gtinsley99/cookies-frontend" target="_blank">Github repository frontend</a>
+          <a href= "https://github.com/gtinsley99/cookies" target="_blank">Github repository backend</a>
+          <a href= "https://gtinsley99.github.io/cookies-frontend/" target="_blank">Clone website</a>
+        </div>
+      </div>
     </div>
   );
 };
