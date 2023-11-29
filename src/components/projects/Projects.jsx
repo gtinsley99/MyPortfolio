@@ -1,15 +1,18 @@
 import "./Projects.css";
+import { useState } from "react";
 
 const Projects = () => {
+  const [proj, setProj] = useState("React");
+
   return (
     <div>
       <h2>My Projects</h2>
       <div className="projects">
-        <h3 className="projType">JavaScript</h3>
-        <h3 className="projType">React</h3>
-        <h3 className="projType">Backend</h3>
+        <h3 className="projType" id={proj === "JS" && "active"} onClick={() => setProj("JS")}>JavaScript</h3>
+        <h3 className="projType" id={proj === "React" && "active"} onClick={() => setProj("React")}>React</h3>
+        <h3 className="projType" id={proj === "Backend" && "active"} onClick={() => setProj("Backend")}>Backend</h3>
       </div>
-      <div className="react">
+      {proj === "React" && <div className="react">
         <div>
           <h3>Marvel character website</h3>
           <p>
@@ -41,8 +44,8 @@ const Projects = () => {
           <a href= "https://github.com/gtinsley99/ToDoList" target="_blank">Github repository</a>
           <a href= "https://gtinsley99.github.io/ToDoList" target="_blank">To do list website</a>
         </div>
-      </div>
-      <div className="JS">
+      </div>}
+      {proj === "JS" && <div className="JS">
         <div>
           <h3>CodeWars solutions</h3>
           <p>My answers to Codewars problems.</p>
@@ -74,8 +77,8 @@ const Projects = () => {
           <a href= "https://github.com/awaghat99/CyberPet" target="_blank">Github repository</a>
           <a href= "https://awaghat99.github.io/CyberPet/" target="_blank">Cyber Pet website</a>
         </div>
-      </div>
-      <div className="backend">
+      </div>}
+      {proj === "Backend" && <div className="backend">
         <div>
           <h3>Sequelize practice</h3>
           <p>An API for storing authors, books and genres in a MySQL database using Sequelize, with relations between tables to return relevent genres of an author etc.</p>
@@ -101,7 +104,7 @@ const Projects = () => {
           <a href= "https://github.com/gtinsley99/cookies" target="_blank">Github repository backend</a>
           <a href= "https://gtinsley99.github.io/cookies-frontend/" target="_blank">Clone website</a>
         </div>
-      </div>
+      </div>}
     </div>
   );
 };
