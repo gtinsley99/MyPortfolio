@@ -6,6 +6,10 @@ import cats from "../../images/projImg/reactImg/cats4lyfe.png";
 import marvel from "../../images/projImg/reactImg/marvel.png";
 import calculator from "../../images/projImg/reactImg/calculator.png";
 import toDoList from "../../images/projImg/reactImg/toDoList.png";
+import keycode from "../../images/projImg/jsImg/keycode.png";
+import drumkit from "../../images/projImg/jsImg/drumkit.png";
+import diceGame from "../../images/projImg/jsImg/diceGame.png";
+import cyberPet from "../../images/projImg/jsImg/cyberPet.png";
 
 const Projects = () => {
   const [proj, setProj] = useState("React");
@@ -71,39 +75,59 @@ const Projects = () => {
           </div>
         </div>
       </Carousel>}
-      {proj === "JS" && <div className="projList">
-        <div>
+      {proj === "JS" && <Carousel infiniteLoop="true" className="projList">
+        <div className="projItem">
           <h3>CodeWars solutions</h3>
           <p>My answers to Codewars problems.</p>
           <a href="https://github.com/gtinsley99/codewars" target="_blank">
             GitHub repository
           </a>
         </div>
-        <div>
+        <div className="projItem">
+          <div>
           <h3>Keycode Generator</h3>
           <p>A website that displays information about the most recent key pressed.</p>
           <a href="https://github.com/gtinsley99/Keycode-generator" target="_blank">Github repository</a>
           <a href= "https://gtinsley99.github.io/Keycode-generator/" target="_blank">Keycode Generator website</a>
+          </div>
+          <div>
+            <img src={keycode} alt="Keycode generator website" />
+          </div>
         </div>
-        <div>
+        <div className="projItem">
+          <div>
           <h3>Drum kit</h3>
           <p>A drumkit activated by click and by key pressing.</p>
           <a href= "https://github.com/gtinsley99/Drumkit" target="_blank">Github repository</a>
           <a href= "https://gtinsley99.github.io/Drumkit/" target="_blank">Drum kit website</a>
+          </div>
+          <div>
+            <img src={drumkit} alt="Drum kit website" />
+          </div>
         </div>
-        <div>
+        <div className="projItem">
+          <div>
           <h3>Dice Game</h3>
           <p>A dice game with an animated die, for one or two players.</p>
           <a href= "https://github.com/gtinsley99/dice_game" target="_blank">Github repository</a>
           <a href= "https://gtinsley99.github.io/dice_game/" target="_blank">Dice game website</a>
+          </div>
+          <div>
+            <img src={diceGame} alt="Dice game website" />
+          </div>
         </div>
-        <div>
+        <div className="projItem">
+          <div>
           <h3>Cyber Pet</h3>
           <p>A cyber pet game produced in a group project.</p>
           <a href= "https://github.com/awaghat99/CyberPet" target="_blank">Github repository</a>
           <a href= "https://awaghat99.github.io/CyberPet/" target="_blank">Cyber Pet website</a>
+          </div>
+          <div>
+            <img src={cyberPet} alt="Cyber Pet Website" />
+          </div>
         </div>
-      </div>}
+      </Carousel>}
       {proj === "Backend" && <div className="projList">
         <div>
           <h3>Sequelize practice</h3>
