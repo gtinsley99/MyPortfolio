@@ -46,7 +46,7 @@ const Projects = () => {
       {proj === "React" && (
         <Carousel infiniteLoop="true" className="projList">
           <div className="projItem">
-            <div>
+            <div  className="projText">
               <h3>Marvel character website</h3>
               <p>
                 Final project of Code Nation. A website displaying Marvel
@@ -73,7 +73,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
               <h3>Cats4Lyfe</h3>
               <p>
                 Fake eCommerce website to purchase cats using React, connecting
@@ -91,7 +91,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
               <h3>Calculator</h3>
               <p>
                 An online calculator with current sum total and previous answer.
@@ -111,7 +111,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
               <h3>To do list</h3>
               <p>
                 An online to do list with ability to archive and cross out list
@@ -140,7 +140,7 @@ const Projects = () => {
             </a>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
               <h3>Keycode Generator</h3>
               <p>
                 A website that displays information about the most recent key
@@ -164,7 +164,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
               <h3>Drum kit</h3>
               <p>A drumkit activated by click and by key pressing.</p>
               <a href="https://github.com/gtinsley99/Drumkit" target="_blank">
@@ -179,7 +179,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
               <h3>Dice Game</h3>
               <p>A dice game with an animated die, for one or two players.</p>
               <a href="https://github.com/gtinsley99/dice_game" target="_blank">
@@ -194,7 +194,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
               <h3>Cyber Pet</h3>
               <p>A cyber pet game produced in a group project.</p>
               <a href="https://github.com/awaghat99/CyberPet" target="_blank">
@@ -213,7 +213,7 @@ const Projects = () => {
       {proj === "Backend" && (
         <Carousel className="projList" infiniteLoop="true">
           <div className="projItem">
-            <div>
+            <div className="projText">
             <h3>Sequelize practice</h3>
             <p>
               An API for storing authors, books and genres in a MySQL database
@@ -232,7 +232,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
             <h3>Bcrypt example</h3>
             <p>
               A website where users can login and order items, using MySQL and
@@ -260,7 +260,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
             <h3>Books API</h3>
             <p>
               An API stored in the cloud holding book information, made using
@@ -278,7 +278,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projItem">
-            <div>
+            <div className="projText">
             <h3>Instagram Clone</h3>
             <p>
               An Instagram clone with user login with an API made using
