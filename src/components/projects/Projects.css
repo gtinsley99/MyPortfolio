@@ -43,6 +43,10 @@
     background-color: #232D3F;
 }
 
+.projImg {
+    height: 700px;
+}
+
 .projText{
     margin-bottom: 50px;
 }

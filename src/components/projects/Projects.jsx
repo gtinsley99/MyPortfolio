@@ -69,7 +69,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={marvel} alt="marvel hero website" />
+              <img className="projImg" src={marvel} alt="marvel hero website" />
             </div>
           </div>
           <div className="projItem">
@@ -87,7 +87,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={cats} alt="cats for life website" />
+              <img className="projImg" src={cats} alt="cats for life website" />
             </div>
           </div>
           <div className="projItem">
@@ -107,7 +107,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={calculator} alt="calculator website" />
+              <img className="projImg" src={calculator} alt="calculator website" />
             </div>
           </div>
           <div className="projItem">
@@ -125,7 +125,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={toDoList} alt="To do list website" />
+              <img className="projImg" src={toDoList} alt="To do list website" />
             </div>
           </div>
         </Carousel>
@@ -160,7 +160,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={keycode} alt="Keycode generator website" />
+              <img className="projImg" src={keycode} alt="Keycode generator website" />
             </div>
           </div>
           <div className="projItem">
@@ -175,7 +175,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={drumkit} alt="Drum kit website" />
+              <img className="projImg" src={drumkit} alt="Drum kit website" />
             </div>
           </div>
           <div className="projItem">
@@ -190,7 +190,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={diceGame} alt="Dice game website" />
+              <img className="projImg" src={diceGame} alt="Dice game website" />
             </div>
           </div>
           <div className="projItem">
@@ -205,7 +205,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              <img src={cyberPet} alt="Cyber Pet Website" />
+              <img className="projImg" src={cyberPet} alt="Cyber Pet Website" />
             </div>
           </div>
         </Carousel>
@@ -256,7 +256,7 @@ const Projects = () => {
             </a>
             </div>
             <div>
-              <img src={orders} alt="Users and orders website" />
+              <img className="projImg" src={orders} alt="Users and orders website" />
             </div>
           </div>
           <div className="projItem">
@@ -274,7 +274,7 @@ const Projects = () => {
             </a>
             </div>
             <div>
-              <img src={books} alt="Books website" />
+              <img className="projImg" src={books} alt="Books website" />
             </div>
           </div>
           <div className="projItem">
@@ -302,7 +302,7 @@ const Projects = () => {
             </a>
             </div>
             <div>
-              <img src={insta} alt="insta web clone" />
+              <img className="projImg" src={insta} alt="insta web clone" />
             </div>
           </div>
         </Carousel>
