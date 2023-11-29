@@ -3,3 +3,11 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.projType{
+    cursor: pointer;
+}
+
+.active{
+    text-decoration: underline;
+}
