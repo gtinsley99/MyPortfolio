@@ -1,19 +1,26 @@
 import "./Projects.css";
 import { useState } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import cats from "../../images/projImg/reactImg/cats4lyfe.png";
+import marvel from "../../images/projImg/reactImg/marvel.png";
+import calculator from "../../images/projImg/reactImg/calculator.png";
+import toDoList from "../../images/projImg/reactImg/toDoList.png";
 
 const Projects = () => {
   const [proj, setProj] = useState("React");
 
   return (
-    <div>
+    <div className="projDiv">
       <h2>My Projects</h2>
       <div className="projects">
         <h3 className="projType" id={proj === "JS" && "active"} onClick={() => setProj("JS")}>JavaScript</h3>
         <h3 className="projType" id={proj === "React" && "active"} onClick={() => setProj("React")}>React</h3>
         <h3 className="projType" id={proj === "Backend" && "active"} onClick={() => setProj("Backend")}>Backend</h3>
       </div>
-      {proj === "React" && <div className="react">
-        <div>
+      {proj === "React" && <Carousel infiniteLoop="true" className="projList">
+        <div className="projItem">
+          <div>
           <h3>Marvel character website</h3>
           <p>
             Final project of Code Nation. A website displaying Marvel characters
@@ -25,27 +32,46 @@ const Projects = () => {
           <a href= "https://github.com/gtinsley99/marvel" target="_blank">Github repository frontend</a>
           <a href= "https://github.com/gtinsley99/marvel-backend" target="_blank">Github repository backend</a>
           <a href= "https://marvel-codenation.netlify.app/" target="_blank">Marvel character website</a>
+          </div>
+          <div>
+            <img src={marvel} alt="marvel hero website" />
+          </div>
         </div>
-        <div>
+        <div className="projItem">
+          <div>
           <h3>Cats4Lyfe</h3>
           <p>Fake eCommerce website to purchase cats using React, connecting with an API. Produced in a group project.</p>
           <a href= "https://github.com/gtinsley99/cats4life" target="_blank">Github repository</a>
           <a href= "https://gtinsley99.github.io/cats4life/" target="_blank">Cats4Lyfe website</a>
+          </div>
+          <div>
+            <img src={cats} alt="cats for life website" />
+          </div>
         </div>
-        <div>
+        <div className="projItem">
+          <div>
           <h3>Calculator</h3>
           <p>An online calculator with current sum total and previous answer.</p>
           <a href= "https://github.com/gtinsley99/calculator" target="_blank">Github repository</a>
           <a href= "https://gtinsley99.github.io/calculator" target="_blank">Calculator website</a>
+          </div>
+          <div>
+            <img src={calculator} alt="calculator website" />
+          </div>
         </div>
-        <div>
+        <div className="projItem">
+          <div>
           <h3>To do list</h3>
           <p>An online to do list with ability to archive and cross out list items.</p>
           <a href= "https://github.com/gtinsley99/ToDoList" target="_blank">Github repository</a>
           <a href= "https://gtinsley99.github.io/ToDoList" target="_blank">To do list website</a>
+          </div>
+          <div>
+            <img src={toDoList} alt="To do list website" />
+          </div>
         </div>
-      </div>}
-      {proj === "JS" && <div className="JS">
+      </Carousel>}
+      {proj === "JS" && <div className="projList">
         <div>
           <h3>CodeWars solutions</h3>
           <p>My answers to Codewars problems.</p>
@@ -78,7 +104,7 @@ const Projects = () => {
           <a href= "https://awaghat99.github.io/CyberPet/" target="_blank">Cyber Pet website</a>
         </div>
       </div>}
-      {proj === "Backend" && <div className="backend">
+      {proj === "Backend" && <div className="projList">
         <div>
           <h3>Sequelize practice</h3>
           <p>An API for storing authors, books and genres in a MySQL database using Sequelize, with relations between tables to return relevent genres of an author etc.</p>

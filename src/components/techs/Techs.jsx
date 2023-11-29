@@ -1,10 +1,10 @@
 import "./Techs.css";
-import HTML from "../../images/html.png";
-import CSS from "../../images/CSS3_logo.svg.png";
-import JavaScript from "../../images/javascript.png";
-import React from "../../images/React-icon.svg.png";
-import MySQL from "../../images/mysql-logo.svg";
-import MongoDB from "../../images/mongodb.svg";
+import HTML from "../../images/techImg/html.png";
+import CSS from "../../images/techImg/CSS3_logo.svg.png";
+import JavaScript from "../../images/techImg/javascript.png";
+import React from "../../images/techImg/React-icon.svg.png";
+import MySQL from "../../images/techImg/mysql-logo.svg";
+import MongoDB from "../../images/techImg/mongodb.svg";
 
 const Techs = () => {
   return (

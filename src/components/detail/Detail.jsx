@@ -1,8 +1,8 @@
 import "./Detail.css";
 import github from "../../images/github-mark-c791e9551fe4/github-mark/github-mark-white.svg";
-import linkedin from "../../images/LinkedIn_icon.svg.png";
+import linkedin from "../../images/socialsImg/LinkedIn_icon.svg.png";
 import CV from "../../static/GeorgeTinsleyCV.pdf";
-import pdf from "../../images/pdf.svg";
+import pdf from "../../images/socialsImg/pdf.svg";
 
 const Detail = () => {
   return (

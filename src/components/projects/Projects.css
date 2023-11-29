@@ -1,4 +1,12 @@
+.projDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .projects{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,3 +21,20 @@
     text-underline-offset: 5px;
 }
 
+.projList{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    width: 80%;
+    border: 3px solid white
+}
+
+.projItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+    background-color: #005B41;
+}
