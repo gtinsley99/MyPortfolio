@@ -3,7 +3,7 @@ import codeImg from "../../images/coding.avif"
 
 const AboutMe = () => {
     return(
-        <div className="aboutMe">
+        <div className="aboutMe" id="about">
             <div className="textContent">
                 <h2>About me</h2>
                 <p>As a Chemistry graduate with experience in industry, I developed a passion for problem solving and logical thinking. As a result I have applied these skills to pursue a career as a software developer through a 12-week course provided by Code Nation.</p>

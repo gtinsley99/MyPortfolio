@@ -18,7 +18,7 @@ const Projects = () => {
   const [proj, setProj] = useState("React");
 
   return (
-    <div className="projDiv">
+    <div className="projDiv" id="projects">
       <h2>My Projects</h2>
       <div className="projects">
         <h3

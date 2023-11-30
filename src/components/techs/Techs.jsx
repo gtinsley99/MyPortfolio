@@ -8,7 +8,7 @@ import MongoDB from "../../images/techImg/mongodb.svg";
 
 const Techs = () => {
   return (
-    <div className="techs">
+    <div className="techs" id="skills">
       <h2>My Technologies</h2>
       <div className="techImgs">
         <div>
