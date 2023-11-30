@@ -19,7 +19,7 @@ const Detail = () => {
           <div className="socials">
             <span>
               <a href="https://github.com/gtinsley99" target="_blank">
-                <img src={github} alt="GitHub"/>
+                <img src={github} alt="GitHub" />
               </a>
             </span>
             <span>
