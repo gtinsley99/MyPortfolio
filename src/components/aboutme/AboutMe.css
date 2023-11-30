@@ -10,6 +10,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    opacity: 0;
+    transform: translateX(-50px);
+    filter: blur(0);
+    transition: all 1s ease;
 }
 
 .textContent h2 {
@@ -21,4 +25,15 @@
     border-radius: 5%;
     position: relative;
     left: -50px;
+    opacity: 0;
+    transform: translateX(50px);
+    filter: blur(0);
+    transition: all 1s ease;
 }
+
+.animate {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}
+

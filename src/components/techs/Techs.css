@@ -3,10 +3,25 @@
     background-color: #232D3F;
 }
 
+.techsTitle{
+    opacity: 0;
+    transform: translateY(-80px);
+    filter: blur(5px);
+    transition: all 1s ease;
+}
+
+.animateTitle{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
 .techImgs{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    margin: 0 20px;
 }
 
 .techs h2 {
@@ -15,6 +30,39 @@
 }
 
 .techPic{
-    width: 280px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
+}
+
+.iconDiv{
+    opacity: 0;
+    transform: translateX(-100px);
+    filter: blur(3px);
+    transition: all 1s ease;
+}
+
+.animateIcon{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.animateIcon:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.animateIcon:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.animateIcon:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.animateIcon:nth-child(5){
+    transition-delay: 800ms;
+}
+
+.animateIcon:nth-child(6){
+    transition-delay: 1000ms;
 }

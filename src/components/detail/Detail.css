@@ -36,4 +36,9 @@
 
 .socials img{
     margin-right:30px;
+    transition: 0.5s;
+}
+
+.socials img:hover {
+    transform: scale(1.1);
 }
