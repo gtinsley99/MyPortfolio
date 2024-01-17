@@ -30,6 +30,10 @@
     text-align: left;
 }
 
+.socials{
+    width: 90vw;
+}
+
 .content p {
     margin-bottom: 100px;
 }
@@ -42,3 +46,10 @@
 .socials img:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 880px) {
+    .content h2{
+        font-size: 60px;
+    }
+ 
+  }
