@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   color: white;
-  justify-content: center;
+  align-items: center;
   justify-content: space-between;
   padding: 2.5%;
   background-color: #183d3d;
@@ -12,20 +12,22 @@
 
 .navSearch {
   display: flex;
+  flex-direction: row;
   width: 30%;
   align-items: center;
   justify-content: center;
 }
 
 .navItem {
+  display: inline-block;
+  position: relative;
   font-weight: normal;
   color: white;
   font-size: 25px;
   text-decoration: none;
   margin: 0px 5%;
   padding: 5px 0px;
-  display: inline-block;
-  position: relative;
+  white-space: nowrap;
 }
 
 .navItem:hover {
@@ -54,4 +56,65 @@
   width: 100%;
   font-weight: normal;
   margin: 0px 50%;
+}
+
+.dropDown{
+  display: none;
+  cursor: pointer;
+  margin-right: 5%;
+  width: 70px;
+  flex-direction: column;
+}
+
+.dropDown img{
+  height: 70px;
+}
+
+.dropDownMenuOff{
+  display: none;
+}
+
+.dropDownMenu{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 70px;
+  border: 1px solid white;
+}
+
+.dropDownItem{
+  color: white;
+  text-decoration: none;
+  background-color: #183d3d;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.dropDownItem:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1280px) {
+  .navItem{
+    margin: 0px 10%;
+  }
+  .navSearch{
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+ .navbar{
+  font-size: 20px;
+ }
+
+ .navItem{
+  display: none;
+ }
+ .dropDown{
+  display: flex;
+ }
 }
