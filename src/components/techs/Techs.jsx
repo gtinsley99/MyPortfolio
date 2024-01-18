@@ -8,33 +8,42 @@ import MySQL from "../../images/techImg/mysql-logo.svg";
 import MongoDB from "../../images/techImg/mongodb.svg";
 
 const Techs = () => {
-    const { ref: titleRef, inView: titleVisible } = useInView({ triggerOnce: true });
-  const { ref: iconRef, inView: iconVisible } = useInView({ triggerOnce: true });
+  const { ref: titleRef, inView: titleVisible } = useInView({
+    triggerOnce: true,
+  });
+  const { ref: iconRef, inView: iconVisible } = useInView({
+    triggerOnce: true,
+  });
   return (
     <div className="techs" id="skills">
-      <h2 className={`techsTitle ${titleVisible && "animateTitle"}`} ref={titleRef}>My Technologies</h2>
-      <div className="techImgs">
-        <div className={`iconDiv ${iconVisible && "animateIcon"}`} ref={iconRef} >
+      <h2
+        className={`techsTitle ${titleVisible && "animateTitle"}`}
+        ref={titleRef}
+      >
+        My Technologies
+      </h2>
+      <div className="techImgs" ref={iconRef}>
+        <div className={`iconDiv ${iconVisible && "animateIcon"}`}>
           <img className="techPic" alt="HTML" src={HTML} />
           <p>HTML</p>
         </div>
-        <div className={`iconDiv ${iconVisible && "animateIcon"}`} ref={iconRef} >
+        <div className={`iconDiv ${iconVisible && "animateIcon"}`}>
           <img className="techPic" alt="CSS" src={CSS} />
           <p>CSS</p>
         </div>
-        <div className={`iconDiv ${iconVisible && "animateIcon"}`} ref={iconRef} >
+        <div className={`iconDiv ${iconVisible && "animateIcon"}`}>
           <img className="techPic" alt="JavaScript" src={JavaScript} />
           <p>JavaScript</p>
         </div>
-        <div className={`iconDiv ${iconVisible && "animateIcon"}`} ref={iconRef} >
+        <div className={`iconDiv ${iconVisible && "animateIcon"}`}>
           <img className="techPic" alt="React" src={React} />
           <p>React</p>
         </div>
-        <div className={`iconDiv ${iconVisible && "animateIcon"}`} ref={iconRef} >
+        <div className={`iconDiv ${iconVisible && "animateIcon"}`}>
           <img className="techPic" alt="MySQL" src={MySQL} />
           <p>MySQL</p>
         </div>
-        <div className={`iconDiv ${iconVisible && "animateIcon"}`} ref={iconRef} >
+        <div className={`iconDiv ${iconVisible && "animateIcon"}`}>
           <img className="techPic" alt="MongoDB" src={MongoDB} />
           <p>MongoDB</p>
         </div>
