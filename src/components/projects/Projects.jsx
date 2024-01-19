@@ -55,6 +55,7 @@ const Projects = () => {
                 characters of users. Persistent login and ability to have a jpg
                 profile picture from the user's files.
               </p>
+              <div className="projLinks">
               <a href="https://github.com/gtinsley99/marvel" target="_blank">
                 Github repository frontend
               </a>
@@ -67,6 +68,7 @@ const Projects = () => {
               <a href="https://marvel-codenation.netlify.app/" target="_blank">
                 Marvel character website
               </a>
+              </div>
             </div>
             <div>
               <img className="projImg" src={marvel} alt="marvel hero website" />

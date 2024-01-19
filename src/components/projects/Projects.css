@@ -50,3 +50,18 @@
 .projText{
     margin-bottom: 50px;
 }
+.projText p{
+    width: 100%;
+    padding: 0% 5%;
+}
+
+@media only screen and (max-width: 990px) {
+    .projList a{
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+    }
+    .projItem{
+        padding-top: 60px;
+    }
+}
