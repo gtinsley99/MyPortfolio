@@ -118,3 +118,9 @@
   display: flex;
  }
 }
+@media only screen and (max-width: 800px) {
+  .navName{
+    position: relative;
+    left: -20px;
+  }
+}
