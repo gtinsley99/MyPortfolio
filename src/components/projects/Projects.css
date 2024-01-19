@@ -44,7 +44,8 @@
 }
 
 .projImg {
-    height: 700px;
+    max-width: 100%;
+    height: auto;
 }
 
 .projText{

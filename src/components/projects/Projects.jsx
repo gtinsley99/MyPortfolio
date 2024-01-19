@@ -44,7 +44,7 @@ const Projects = () => {
         </h3>
       </div>
       {proj === "React" && (
-        <Carousel infiniteLoop="true" className="projList">
+        <Carousel infiniteLoop="true" className="projList" showThumbs= {false}>
           <div className="projItem">
             <div  className="projText">
               <h3>Marvel character website</h3>
