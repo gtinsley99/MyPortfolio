@@ -61,10 +61,10 @@
   
     .socials img{
         width: 20%;
-        position: relative;
-        left: -10%;
     }
     .content{
         align-items: center;
+        position: relative;
+        left: -10%;
     }
   }
