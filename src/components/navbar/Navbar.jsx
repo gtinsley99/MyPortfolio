@@ -31,9 +31,9 @@ const Navbar = () => {
         <div className="dropDown">
             <img src={dropDown} onClick={handleClick} />
             <div className={menu}>
-                <a className="dropDownItem" href="#about">About</a>
-                <a className="dropDownItem" href="#skills">Skills</a>
-                <a className="dropDownItem" href="#projects">Projects</a>
+                <a className="dropDownItem" href="#about" onClick={() => setMenu("dropDownMenuOff")}>About</a>
+                <a className="dropDownItem" href="#skills" onClick={() => setMenu("dropDownMenuOff")}>Skills</a>
+                <a className="dropDownItem" href="#projects" onClick={() => setMenu("dropDownMenuOff")}>Projects</a>
             </div>
         </div>
       
