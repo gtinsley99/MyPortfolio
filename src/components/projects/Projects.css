@@ -33,6 +33,10 @@
     margin: 5%;
 }
 
+.projLinks :hover{
+    color: rgb(9, 103, 226);
+}
+
 .projItem{
     display: flex;
     flex-direction: column;
@@ -41,12 +45,31 @@
     width: 100%;
     height: 1000px;
     background-color: #232D3F;
+    border: 5px solid #183d3d;
 }
 
 .projImg {
-    height: 700px;
+    max-width: 100%;
+    height: auto;
 }
 
 .projText{
     margin-bottom: 50px;
+}
+.projText p{
+    width: 100%;
+    padding: 0% 5%;
+}
+
+@media only screen and (max-width: 990px) {
+    .projList a{
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+    }
+    .projItem{
+        padding-top: 60px;
+        max-height: 80vh;
+        margin-bottom: 50px;
+    }
 }
